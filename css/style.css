@@ -1,0 +1,99 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: auto;
+
+}
+
+body{
+    background: rgb(56, 57, 59);
+    background: linear-gradient(180deg, rgb(226, 226, 225) 30%, rgb(226, 226, 211) 100%);
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #141414);
+
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 50%;
+    border: 1.5px solid #141414;
+    box-shadow: 0 5px 10px #14141441;
+}
+
+.container{
+    margin: 50px;
+}
+
+.profile{
+    text-align: center;
+    margin: 30px 0;
+}
+
+img{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: 'Inconsolata', 'Montserrat';
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+ul{ list-style: none;}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 0 20px;
+    
+}
+
+.social img{
+    width: 30px;
+}
+
+.card{
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background-color: aliceblue;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #141414;
+    box-shadow: 0 5px 10px #14141441;
+
+}
+
+a{text-decoration: none;}
+
+
+h3{
+    font-size: 16px;
+    color: #141414;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(77, 76, 76);
+    line-height: 20px;
+}
+
+.important-links{
+    padding: 10px 0 30px 0;
+}
+
+.important-links h3{ 
+    color: rgb(166, 199, 19);
+}
